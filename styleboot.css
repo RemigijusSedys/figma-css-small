@@ -1,0 +1,93 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #fbfbfd;
+}
+
+.top-sign-up{
+    display: flex;
+    height: 15.8125rem; 
+    flex-direction: column;   
+}
+.top-sign-up h2 {
+    top: 0px;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 4.125rem; 
+    letter-spacing: 0.0625rem; 
+}
+.top-sign-up p{
+    margin-top: 2.88rem;
+    justify-content: center;
+    color: var(--colour-main-blue-400, #6F7CB2);
+    font-feature-settings: 'clig' off, 'liga' off; 
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.875rem; 
+}
+
+/* ================container================= */
+
+.container{
+    height: 100vh;
+}
+.work input::placeholder{
+    font-size: 2.25rem; 
+    font-weight: 300;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    color: #6F7CB2;
+}
+.work input {
+    
+    border-radius: 0;
+    width: 26.4375rem;
+    height: 3.3125rem; 
+    border: 1px solid black;
+}
+
+.container .work {
+    height: 100vh;
+}
+
+/* ==========image========== */
+
+
+img {
+    border: 1px solid #667799;
+    width: 31.25rem;
+    height: 31.25rem;
+    flex-shrink: 0; 
+}
+
+/* ===button=== */
+
+.btn-primary {
+    border-radius: 0;
+    width: 16.5rem;
+    height: 3.75rem; 
+    background: #C4C4C4;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    border: none;
+    font-size: 2.25rem; 
+    text-align: left;
+    font-weight: 300;
+    font-style: italic;
+
+}
+.btn-check:checked + .btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check) + .btn:active {
+    border-radius: 0;
+    color: white;
+    background-color: #c4c4c4;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+}
+
+.btn:hover, .btn:active {
+    font-family: 'Roboto', sans-serif;
+    border-radius: 0;
+    color: white;
+    background-color: #c4c4c4;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    
+}
