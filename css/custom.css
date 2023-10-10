@@ -1,0 +1,25 @@
+.container {
+    background-color: aqua;
+}
+
+.container-fluid {
+    background-color: brown;
+}
+.box1 {
+    background-color: chocolate;
+    height: 300px;
+}
+.box2 {
+    background-color: rgb(116, 77, 50);
+    height: 300px;
+}
+.box3 {
+    background-color: rgb(228, 184, 153);
+    height: 300px;
+}
+
+.box h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
